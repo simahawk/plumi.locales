@@ -1653,7 +1653,7 @@ msgstr ""
 
 #: ../../../plumi.content/plumi/content/content/plumivideo.py:223
 msgid "Tags"
-msgstr "Categorie"
+msgstr ""
 
 #: ../../../em.taxonomies/em/taxonomies/vocabs.py:52
 #: ../../../plumi.app/plumi/app/vocabs.py:217
