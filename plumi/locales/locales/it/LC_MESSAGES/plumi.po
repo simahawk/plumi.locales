@@ -4,343 +4,441 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: plumi\n"
-"POT-Creation-Date: 2011-05-05 18:45+0000\n"
-"PO-Revision-Date: 2011-09-13 12:36+0100\n"
-"Last-Translator: Giacomo Spettoli <giacomo.spettoli@gmail.com>\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2014-04-16 14:59+0100\n"
+"Last-Translator: Simone Orsi <simahawk@gmail.com>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n!=1\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
 "Language-Code: it\n"
 "Language-Name: Italiano\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plumi\n"
 "X-Is-Fallback-For: it-ch it-it\n"
+"X-Generator: Poedit 1.5.4\n"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:9
-msgid " International"
-msgstr " Internazionale"
-
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:123
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:111
 msgid "${location}, from ${start} to ${end}"
+msgstr "${location}, da ${start} a ${end}"
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+msgid ""
+"- Users can create content that is immediately publicly accessible. - "
+"Content can be submitted for publication by the content's creator or a "
+"Manager, which is typically done to promote events or news to the front "
+"page. - Reviewers can publish or reject content, content owners can retract "
+"their submissions. - While the content is awaiting review it is readable by "
+"anybody. - If content is published, it can only be retracted by a Manager."
 msgstr ""
+"- Gli utenti possono creare un contenuto che viene immediatamente "
+"pubblicato. - Il contenuto può essere inviato per la pubblicazione dal "
+"autore o da un Manager, per promuovere un evento o una notizia in prima "
+"pagina. -"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
-msgid "- Users can create content that is immediately publicly accessible. - Content can be submitted for publication by the content's creator or a Manager, which is typically done to promote events or news to the front page. - Reviewers can publish or reject content, content owners can retract their submissions. - While the content is awaiting review it is readable by anybody. - If content is published, it can only be retracted by a Manager."
-msgstr "- Gli utenti possono creare un contenuto che viene immediatamente pubblicato. - Il contenuto può essere inviato per la pubblicazione dal autore o da un Manager, per promuovere un evento o una notizia in prima pagina. -"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:10
-#: ../../../plumi.content/plumi/content/vocabs.py:10
+#: plumi.app/plumi/app/vocabs.py:9
 msgid "-- International --"
 msgstr "-- Internazionale --"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:95
-msgid "-- None --"
-msgstr "-- Nessuno --"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:104
-#: ../../../plumi.app/plumi/app/vocabs.py:9
 #: ../../../plumi.content/plumi/content/vocabs.py:9
 msgid "----------------"
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/subscribers.py:189
+#: ../../../plumi.content/plumi/content/vocabs.py:10
+msgid "--International--"
+msgstr "--Internazionale--"
+
+#: ../../../plumi.content/plumi/content/subscribers.py:255
 msgid "A comment has been added on "
 msgstr "Un commento è stato aggiunto"
 
-#: ../../../plumi.content/plumi/content/subscribers.py:225
+#: ../../../plumi.content/plumi/content/subscribers.py:290
 msgid "A comment has been posted."
 msgstr "Un commento è stato inviato."
+
+#: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
+msgid "A configurable plone portlet that displays categories for current video"
+msgstr "Una portlet configurabile che mostra le categorie del video attuale"
+
+#: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
+msgid ""
+"A configurable plone portlet that displays related video from same categories"
+msgstr ""
+"Una portlet configurabile che mostra i video dalle stesse categorie del "
+"video corrente"
+
+#: ../../../plumi.content/plumi/content/vocabs.py:30
+#: plumi.app/plumi/app/vocabs.py:268
+msgid "Abkhazian "
+msgstr ""
+
+#: ../../../plumi.skin/plumi/skin/browser/portlets/aboutportlet.py:33
+msgid "About Portlet"
+msgstr ""
 
 #: ../../../plumi.content/plumi/content/browser/portlets/activemembers.py:49
 #: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
 msgid "Active Members"
-msgstr "Membri attivi"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:81
-msgid "Activism"
-msgstr "Attivismo"
-
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:435
-msgid "Activities"
-msgstr "Attività"
+msgstr "Utenti attivi"
 
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:265
-msgid "Activities :"
-msgstr "Attività :"
+msgid "Activities:"
+msgstr "Attivitá:"
 
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:222
-msgid "Address :"
-msgstr "Indirizzo :"
+msgid "Address:"
+msgstr "Indirizzo:"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:11
+#: ../../../plumi.content/plumi/content/vocabs.py:113
+#: plumi.app/plumi/app/vocabs.py:351
+msgid "Afan"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:29
+#: plumi.app/plumi/app/vocabs.py:267
+msgid "Afar "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:10
 msgid "Afghanistan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:12
+#: ../../../plumi.content/plumi/content/vocabs.py:31
+#: plumi.app/plumi/app/vocabs.py:269
+msgid "Afrikaans "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:11
 msgid "Albania"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:13
+#: ../../../plumi.content/plumi/content/vocabs.py:135
+#: plumi.app/plumi/app/vocabs.py:373
+msgid "Albanian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:12
 msgid "Algeria "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:14
+#: plumi.app/plumi/app/vocabs.py:13
 msgid "American Samoa"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:15
+#: ../../../plumi.content/plumi/content/vocabs.py:32
+#: plumi.app/plumi/app/vocabs.py:270
+msgid "Amharic "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:14
 msgid "Andorra "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:16
+#: plumi.app/plumi/app/vocabs.py:15
 msgid "Angola"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:17
+#: plumi.app/plumi/app/vocabs.py:16
 msgid "Anguilla"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:89
-msgid "Animal Rights"
-msgstr "Diritti degli animali"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:99
-#: ../../../plumi.app/plumi/app/vocabs.py:261
+#: plumi.app/plumi/app/vocabs.py:259
 msgid "Animation"
 msgstr "Animazione"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:12
-#: ../../../plumi.app/plumi/app/vocabs.py:18
+#: plumi.app/plumi/app/vocabs.py:17
 msgid "Antarctica"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:19
+#: plumi.app/plumi/app/vocabs.py:18
 msgid "Antigua And Barbuda "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:20
+#: ../../../plumi.content/plumi/content/vocabs.py:33
+#: plumi.app/plumi/app/vocabs.py:271
+msgid "Arabic "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:19
 msgid "Argentina "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:21
+#: plumi.app/plumi/app/vocabs.py:20
 msgid "Armenia "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:78
-#: ../../../plumi.app/plumi/app/vocabs.py:254
+#: ../../../plumi.content/plumi/content/vocabs.py:74
+#: plumi.app/plumi/app/vocabs.py:312
+msgid "Armenian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:253
 msgid "Art / Culture"
 msgstr "Arte / Cultura"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:113
-msgid "Art Prize"
-msgstr "Prezzo dell'arte"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:22
+#: plumi.app/plumi/app/vocabs.py:21
 msgid "Aruba "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:26
-#: ../../../plumi.app/plumi/app/vocabs.py:23
+#: ../../../plumi.content/plumi/content/vocabs.py:34
+#: plumi.app/plumi/app/vocabs.py:272
+msgid "Assamese "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:22
 msgid "Australia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:24
+#: plumi.app/plumi/app/vocabs.py:23
 msgid "Austria "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:25
+#: ../../../plumi.content/plumi/content/vocabs.py:35
+#: plumi.app/plumi/app/vocabs.py:273
+msgid "Aymara "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:24
 msgid "Azerbaijan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:26
+#: ../../../plumi.content/plumi/content/vocabs.py:36
+#: plumi.app/plumi/app/vocabs.py:274
+msgid "Azerbaijani "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:25
 msgid "Bahamas "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:27
+#: plumi.app/plumi/app/vocabs.py:26
 msgid "Bahrain "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:53
-#: ../../../plumi.app/plumi/app/vocabs.py:28
+#: plumi.app/plumi/app/vocabs.py:27
 msgid "Bangladesh"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:29
+#: plumi.app/plumi/app/vocabs.py:28
 msgid "Barbados"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:30
+#: ../../../plumi.content/plumi/content/vocabs.py:37
+#: plumi.app/plumi/app/vocabs.py:275
+msgid "Bashkir "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:348
+msgid "Basic info"
+msgstr "Informazioni base"
+
+#: ../../../plumi.content/plumi/content/vocabs.py:57
+#: plumi.app/plumi/app/vocabs.py:295
+msgid "Basque "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:29
 msgid "Belarus "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:31
+#: plumi.app/plumi/app/vocabs.py:30
 msgid "Belgium "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:32
+#: plumi.app/plumi/app/vocabs.py:31
 msgid "Belize"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:33
+#: ../../../plumi.content/plumi/content/vocabs.py:42
+#: plumi.app/plumi/app/vocabs.py:280
+msgid "Bengali;"
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:32
 msgid "Benin "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:34
+#: plumi.app/plumi/app/vocabs.py:33
 msgid "Bermuda "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:54
-#: ../../../plumi.app/plumi/app/vocabs.py:35
+#: plumi.app/plumi/app/vocabs.py:34
 msgid "Bhutan"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:84
-msgid "Biodiversity"
-msgstr "Biodiversità"
+#: ../../../plumi.content/plumi/content/vocabs.py:51
+#: plumi.app/plumi/app/vocabs.py:289
+msgid "Bhutani "
+msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:91
-msgid "Biotech"
-msgstr "Biotecnologie"
+#: ../../../plumi.content/plumi/content/vocabs.py:40
+#: plumi.app/plumi/app/vocabs.py:278
+msgid "Bihari "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:41
+#: plumi.app/plumi/app/vocabs.py:279
+msgid "Bislama "
+msgstr ""
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:80
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:39
 msgid "Body Text"
 msgstr "Corpo del testo"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:36
+#: plumi.app/plumi/app/vocabs.py:35
 msgid "Bolivia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:37
+#: plumi.app/plumi/app/vocabs.py:36
 msgid "Bosnia And Herzegowina"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:38
+#: plumi.app/plumi/app/vocabs.py:37
 msgid "Botswana"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:10
-msgid "Bougainville"
-msgstr ""
-
-#: ../../../plumi.app/plumi/app/vocabs.py:39
+#: plumi.app/plumi/app/vocabs.py:38
 msgid "Bouvet Island "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:40
+#: plumi.app/plumi/app/vocabs.py:39
 msgid "Brazil"
 msgstr "Brasile"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:41
+#: ../../../plumi.content/plumi/content/vocabs.py:44
+#: plumi.app/plumi/app/vocabs.py:282
+msgid "Breton "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:40
 msgid "British Indian Ocean Territory"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/setuphandlers.py:72
-msgid "Browse Content"
-msgstr "Visualizza il contenuto"
+#: ../../../plumi.skin/plumi/skin/browser/portlets/browseportlet.py:33
+msgid "Browse Portlet"
+msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:15
-#: ../../../plumi.app/plumi/app/vocabs.py:42
+#: plumi.app/plumi/app/vocabs.py:41
 msgid "Brunei Darussalam "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:43
+#: plumi.app/plumi/app/vocabs.py:42
 msgid "Bulgaria"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:44
+#: ../../../plumi.content/plumi/content/vocabs.py:39
+#: plumi.app/plumi/app/vocabs.py:277
+msgid "Bulgarian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:43
 msgid "Burkina Faso"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:45
+#: ../../../plumi.content/plumi/content/vocabs.py:107
+#: plumi.app/plumi/app/vocabs.py:345
+msgid "Burmese "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:44
 msgid "Burundi "
 msgstr ""
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:57
-msgid "Call Out!"
-msgstr "Annuncio!"
+#: ../../../plumi.content/plumi/content/vocabs.py:38
+#: plumi.app/plumi/app/vocabs.py:276
+msgid "Byelorussian "
+msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/setuphandlers.py:223
-msgid "Call Outs"
-msgstr "Annunci"
-
-#: ../../../plumi.app/plumi/app/install.py:115
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:150
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:138
 msgid "Callouts"
 msgstr "Annunci"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:17
-#: ../../../plumi.app/plumi/app/vocabs.py:46
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:131
+msgid "Callouts RSS Syndication"
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:45
 msgid "Cambodia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:47
+#: ../../../plumi.content/plumi/content/vocabs.py:87
+#: plumi.app/plumi/app/vocabs.py:325
+msgid "Cambodian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:46
 msgid "Cameroon"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Can only be seen and edited by the owner."
 msgstr "Può essere visualizzato e modificato dal proprietario"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:48
+#: plumi.app/plumi/app/vocabs.py:47
 msgid "Canada"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:49
+#: ../../../plumi.content/plumi/content/browser/forms.py:339
+msgid "Cancel"
+msgstr "Annulla"
+
+#: plumi.app/plumi/app/vocabs.py:48
 msgid "Cape Verde"
 msgstr ""
 
+#: ../../../plumi.content/plumi/content/vocabs.py:45
+#: plumi.app/plumi/app/vocabs.py:283
+msgid "Catalan "
+msgstr ""
+
 #: ../../../plumi.content/plumi/content/browser/templates/plumi_callout_view.pt:66
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:222
 msgid "Categories"
 msgstr "Categorie"
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:91
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:47
 msgid "Categories. Hold down CTRL/COMMAND and click to multiple select topics."
-msgstr "Categorie. Tenere premuto CTRL/COMMAND e cliccare per selezionare più argomenti."
+msgstr ""
+"Categorie. Tenere premuto CTRL/COMMAND e cliccare per selezionare più "
+"argomenti."
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:90
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:45
 msgid "Category"
 msgstr "Categoria"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:50
+#: plumi.app/plumi/app/vocabs.py:49
 msgid "Cayman Islands"
 msgstr "Isole Cayman"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:51
+#: plumi.app/plumi/app/vocabs.py:50
 msgid "Central African Republic"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:52
+#: plumi.app/plumi/app/vocabs.py:51
 msgid "Chad"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:53
+#: plumi.app/plumi/app/vocabs.py:52
 msgid "Chile "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:47
-#: ../../../plumi.app/plumi/app/vocabs.py:54
+#: plumi.app/plumi/app/vocabs.py:53
 msgid "China "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:55
-msgid "Christmas Island"
+#: ../../../plumi.content/plumi/content/vocabs.py:166
+#: plumi.app/plumi/app/vocabs.py:404
+msgid "Chinese "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:92
-msgid "Civil Liberties"
-msgstr "Libertà civili"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:85
-msgid "Climate Change"
-msgstr "Cambiamenti climatici"
+#: plumi.app/plumi/app/vocabs.py:54
+msgid "Christmas Island"
+msgstr ""
 
 #: ../../../plumi.content/plumi/content/browser/templates/plumi_callout_view.pt:93
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:104
@@ -348,64 +446,57 @@ msgstr "Cambiamenti climatici"
 msgid "Closing Date"
 msgstr "Data di chiusura"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:56
+#: plumi.app/plumi/app/vocabs.py:55
 msgid "Cocos (Keeling) Islands "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:57
+#: plumi.app/plumi/app/vocabs.py:56
 msgid "Colombia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Comment about the last transition"
 msgstr "Commento sull'ultima modifica"
 
-#: ../../../plumi.content/plumi/content/subscribers.py:187
+#: ../../../plumi.content/plumi/content/subscribers.py:250
 msgid "Comment added on: "
 msgstr "Commento aggiunto a: "
 
-#: ../../../plumi.app/plumi/app/vocabs.py:58
+#: plumi.app/plumi/app/vocabs.py:57
 msgid "Comoros "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:112
-msgid "Competition"
-msgstr "Competizione"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:109
-msgid "Conference"
-msgstr "Conferenza"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:59
+#: plumi.app/plumi/app/vocabs.py:58
 msgid "Congo, Democratic Republic Of (Was Zaire) "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:60
+#: plumi.app/plumi/app/vocabs.py:59
 msgid "Congo, People's Republic Of "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:71
-msgid "Consumerism"
-msgstr ""
-
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:298
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:211
 msgid "Contact"
 msgstr "Contatto"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:61
+#: ../../../plumi.skin/plumi/skin/browser/portlets/contentportlet.py:33
+msgid "Content Portlet"
+msgstr "Portlet Contenuto"
+
+#: plumi.app/plumi/app/vocabs.py:60
 msgid "Cook Islands"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:67
-msgid "Corporations / Privatisation"
-msgstr "Corporazioni / Privatizzazione"
+#: ../../../plumi.content/plumi/content/vocabs.py:46
+#: plumi.app/plumi/app/vocabs.py:284
+msgid "Corsican "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:62
+#: plumi.app/plumi/app/vocabs.py:61
 msgid "Costa Rica"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:63
+#: plumi.app/plumi/app/vocabs.py:62
 msgid "Cote D'ivoire "
 msgstr ""
 
@@ -413,335 +504,386 @@ msgstr ""
 msgid "Could not find a valid email address"
 msgstr "Impossibile trovare un indirizzo email valido"
 
-#: ../../../em.taxonomies/em/taxonomies/setuphandlers.py:173
-msgid "Countries"
-msgstr "Nazioni"
-
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:258
+#: ../../../plumi.content/plumi/content/browser/forms.py:178
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:169
 msgid "Country"
 msgstr "Nazione"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:136
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:138
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:86
 msgid "Country of origin of the video"
 msgstr "Nazione di origine del video"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:111
-msgid "Crew"
-msgstr "Equipaggio"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:64
+#: plumi.app/plumi/app/vocabs.py:63
 msgid "Croatia (Local Name: Hrvatska)"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:65
+#: ../../../plumi.content/plumi/content/vocabs.py:72
+#: plumi.app/plumi/app/vocabs.py:310
+msgid "Croatian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:64
 msgid "Cuba"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:66
+#: plumi.app/plumi/app/vocabs.py:65
 msgid "Cyprus"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:67
+#: ../../../plumi.content/plumi/content/vocabs.py:47
+#: plumi.app/plumi/app/vocabs.py:285
+msgid "Czech "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:66
 msgid "Czech Republic"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:107
-#: ../../../plumi.app/plumi/app/vocabs.py:265
-#: ../../../plumi.content/plumi/content/vocabs.py:21
+#: ../../../plumi.content/plumi/content/vocabs.py:23
+#: plumi.app/plumi/app/vocabs.py:262
 msgid "DVD"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:49
+#: plumi.app/plumi/app/vocabs.py:287
+msgid "Danish "
 msgstr ""
 
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:20
 msgid "Date Produced"
 msgstr "Data di produzione"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:114
-msgid "Date of release"
-msgstr "Data di rilascio"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:68
+#: plumi.app/plumi/app/vocabs.py:67
 msgid "Denmark "
 msgstr "Danimarca"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:289
-msgid "Directed by"
-msgstr "Diretto da"
+#: ../../../plumi.content/plumi/content/browser/forms.py:141
+msgid "Describe your video in 160 characters."
+msgstr "Descrivi il tuo video in 160 caratteri."
 
+#: ../../../plumi.content/plumi/content/browser/forms.py:201
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:202
 #: ../../../plumi.content/plumi/content/content/plumivideo.py:45
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:68
 msgid "Director"
 msgstr "Regista"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:74
-msgid "Disability Rights"
-msgstr "Diritti dei disabili"
-
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:330
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:105
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:243
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:106
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:32
 msgid "Distributor"
 msgstr "Distributore"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:69
+#: plumi.app/plumi/app/vocabs.py:68
 msgid "Djibouti"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:96
-#: ../../../plumi.app/plumi/app/vocabs.py:259
+#: plumi.app/plumi/app/vocabs.py:257
 msgid "Documentary"
 msgstr "Documentario"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:70
+#: plumi.app/plumi/app/vocabs.py:69
 msgid "Dominica"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:71
+#: plumi.app/plumi/app/vocabs.py:70
 msgid "Dominican Republic"
 msgstr "Repubblica Dominicana"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:185
-msgid "Download / Watch Ogg Theora Version"
-msgstr "Scarica / Guarda in formato Ogg Theora"
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:115
+msgid "Duration"
+msgstr "Durata"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:148
-msgid "Download Hi-Res / Screening Version"
-msgstr "Scarica la versione Hi-Res / Proiezione"
+#: ../../../plumi.content/plumi/content/vocabs.py:110
+#: plumi.app/plumi/app/vocabs.py:348
+msgid "Dutch "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:72
+#: plumi.app/plumi/app/vocabs.py:71
 msgid "Ecuador "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:83
-msgid "Education"
-msgstr "Educazione"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:73
+#: plumi.app/plumi/app/vocabs.py:72
 msgid "Egypt "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:74
+#: plumi.app/plumi/app/vocabs.py:73
 msgid "El Salvador "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:75
+#: ../../../plumi.content/plumi/content/browser/forms.py:209
+msgid "Email Address"
+msgstr "Indirizzo email"
+
+#: ../../../plumi.content/plumi/content/vocabs.py:53
+#: plumi.app/plumi/app/vocabs.py:291
+msgid "English "
+msgstr "Inglese"
+
+#: plumi.app/plumi/app/vocabs.py:74
 msgid "Equatorial Guinea "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:76
+#: plumi.app/plumi/app/vocabs.py:75
 msgid "Eritrea "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:77
+#: ../../../plumi.content/plumi/content/vocabs.py:54
+#: plumi.app/plumi/app/vocabs.py:292
+msgid "Esperanto "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:76
 msgid "Estonia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:78
+#: ../../../plumi.content/plumi/content/vocabs.py:56
+#: plumi.app/plumi/app/vocabs.py:294
+msgid "Estonian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:77
 msgid "Ethiopia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:127
-msgid "Events"
-msgstr "Eventi"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:114
-msgid "Exhibition"
-msgstr "Esibizione"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:97
-msgid "Experimental"
-msgstr "Sperimentale"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:79
+#: plumi.app/plumi/app/vocabs.py:78
 msgid "Falkland Islands (Malvinas) "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:80
+#: plumi.app/plumi/app/vocabs.py:79
 msgid "Faroe Islands "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: ../../../plumi.content/plumi/content/vocabs.py:61
+#: plumi.app/plumi/app/vocabs.py:299
+msgid "Faroese "
+msgstr ""
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Feature"
 msgstr "Promuovi"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Featured"
 msgstr "Promosso"
 
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:32
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:28
 msgid "Featured Video"
 msgstr "Video promosso"
 
-#: ../../../plumi.app/plumi/app/install.py:97
+#: plumi.app/plumi/app/install.py:76
 msgid "Featured Videos"
 msgstr "Video promossi"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Featuring the item makes it visible on the front page."
 msgstr "Promuovere il contenuto lo rende visibile in prima pagina."
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:105
-msgid "Festival"
-msgstr "Festival"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:98
-#: ../../../plumi.app/plumi/app/vocabs.py:260
+#: plumi.app/plumi/app/vocabs.py:258
 msgid "Fiction"
 msgstr "Fiction"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:27
-#: ../../../plumi.app/plumi/app/vocabs.py:81
+#: plumi.app/plumi/app/vocabs.py:80
 msgid "Fiji"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:82
+#: ../../../plumi.content/plumi/content/vocabs.py:60
+#: plumi.app/plumi/app/vocabs.py:298
+msgid "Fiji "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:81
 msgid "Finland "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:86
-msgid "Forests / Conservation"
-msgstr "Foreste / Conservazione"
+#: ../../../plumi.content/plumi/content/vocabs.py:59
+#: plumi.app/plumi/app/vocabs.py:297
+msgid "Finnish "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:83
+#: plumi.app/plumi/app/vocabs.py:82
 msgid "France"
 msgstr "Francia"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:84
+#: plumi.app/plumi/app/vocabs.py:83
 msgid "France, Metropolitan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:85
+#: ../../../plumi.content/plumi/content/vocabs.py:62
+#: plumi.app/plumi/app/vocabs.py:300
+msgid "French "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:84
 msgid "French Guiana "
 msgstr "Guiana Francese"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:28
-#: ../../../plumi.app/plumi/app/vocabs.py:86
+#: plumi.app/plumi/app/vocabs.py:85
 msgid "French Polynesia"
 msgstr "Polinesia Francese"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:87
+#: plumi.app/plumi/app/vocabs.py:86
 msgid "French Southern Territories "
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:127
+#: ../../../plumi.content/plumi/content/vocabs.py:63
+#: plumi.app/plumi/app/vocabs.py:301
+msgid "Frisian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:157
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:128
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:26
 msgid "Full Description"
 msgstr "Descrizione completa"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:88
+#: plumi.app/plumi/app/vocabs.py:87
 msgid "Gabon "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:89
+#: ../../../plumi.content/plumi/content/vocabs.py:66
+#: plumi.app/plumi/app/vocabs.py:304
+msgid "Galician "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:88
 msgid "Gambia"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:75
-msgid "Gender / Sexuality"
-msgstr "Genere / Sessualità"
-
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:401
-msgid "Genre Interests"
-msgstr "Generi di interesse"
+#: ../../../plumi.content/plumi/content/browser/forms.py:172
+msgid "Genre"
+msgstr ""
 
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:252
-msgid "Genre Interests :"
-msgstr "Generi di interesse :"
+msgid "Genre Interests:"
+msgstr ""
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:204
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:120
 msgid "Genres"
 msgstr "Generi"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:90
+#: plumi.app/plumi/app/vocabs.py:89
 msgid "Georgia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:91
+#: ../../../plumi.content/plumi/content/vocabs.py:84
+#: plumi.app/plumi/app/vocabs.py:322
+msgid "Georgian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:50
+#: plumi.app/plumi/app/vocabs.py:288
+msgid "German "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:90
 msgid "Germany "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:92
+#: plumi.app/plumi/app/vocabs.py:91
 msgid "Ghana "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:93
+#: plumi.app/plumi/app/vocabs.py:92
 msgid "Gibraltar "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:68
-msgid "Globalisation"
-msgstr "Globalizzazione"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:94
+#: plumi.app/plumi/app/vocabs.py:93
 msgid "Greece"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:95
+#: ../../../plumi.content/plumi/content/vocabs.py:52
+#: plumi.app/plumi/app/vocabs.py:290
+msgid "Greek "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:94
 msgid "Greenland "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:96
+#: ../../../plumi.content/plumi/content/vocabs.py:86
+#: plumi.app/plumi/app/vocabs.py:324
+msgid "Greenlandic "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:95
 msgid "Grenada "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:97
+#: plumi.app/plumi/app/vocabs.py:96
 msgid "Guadeloupe"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:29
-#: ../../../plumi.app/plumi/app/vocabs.py:98
+#: plumi.app/plumi/app/vocabs.py:97
 msgid "Guam"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:99
+#: ../../../plumi.content/plumi/content/vocabs.py:67
+#: plumi.app/plumi/app/vocabs.py:305
+msgid "Guarani "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:98
 msgid "Guatemala "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:100
+#: plumi.app/plumi/app/vocabs.py:99
 msgid "Guinea"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:101
+#: plumi.app/plumi/app/vocabs.py:100
 msgid "Guinea-Bissau "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:102
+#: ../../../plumi.content/plumi/content/vocabs.py:68
+#: plumi.app/plumi/app/vocabs.py:306
+msgid "Gujarati "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:101
 msgid "Guyana"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:103
+#: plumi.app/plumi/app/vocabs.py:102
 msgid "Haiti "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:13
-msgid "Hawaii"
+#: ../../../plumi.content/plumi/content/vocabs.py:69
+#: plumi.app/plumi/app/vocabs.py:307
+msgid "Hausa "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:66
-msgid "Health"
-msgstr "Salute"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:104
+#: plumi.app/plumi/app/vocabs.py:103
 msgid "Heard And Mc Donald Islands "
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/subscribers.py:188
+#: ../../../plumi.content/plumi/content/vocabs.py:70
+#: plumi.app/plumi/app/vocabs.py:308
+msgid "Hebrew"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/subscribers.py:254
 msgid "Hi "
 msgstr "Ciao "
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:161
+#: ../../../plumi.content/plumi/content/vocabs.py:71
+#: plumi.app/plumi/app/vocabs.py:309
+msgid "Hindi "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:177
 msgid "Hold down CTRL/COMMAND and click to select multiple topics."
 msgstr "Tieni premuto CTRL/COMMAND e clicca per selezionare più argomenti"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:307
-msgid "Home page"
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:216
+msgid "Homepage: ${homepage_url} ${linebreak}"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:105
+#: plumi.app/plumi/app/vocabs.py:104
 msgid "Honduras"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:106
+#: plumi.app/plumi/app/vocabs.py:105
 msgid "Hong Kong "
 msgstr ""
 
@@ -749,22 +891,45 @@ msgstr ""
 msgid "How many items to list."
 msgstr "Numero di elementi da mostrare."
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:73
-msgid "Human Rights"
-msgstr "Diritti dell'uomo"
+#: ../../../plumi.content/plumi/content/vocabs.py:73
+#: plumi.app/plumi/app/vocabs.py:311
+msgid "Hungarian "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:107
+#: plumi.app/plumi/app/vocabs.py:106
 msgid "Hungary "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:108
+#: plumi.app/plumi/app/vocabs.py:107
 msgid "Iceland "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
-msgid "If you submitted the item by mistake or want to perform additional edits, this will take it back."
-msgstr "Se hai inviato il contenuto per errore o vuoi apportare ulteriori modifiche, questo farà retrocedere il contenuto."
+#: ../../../plumi.content/plumi/content/vocabs.py:79
+#: plumi.app/plumi/app/vocabs.py:317
+msgid "Icelandic "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/portlets/video_from_same_categories.py:27
+msgid "If greater than zero this number will limit the items shown."
+msgstr ""
+"Se maggiore di zero verranno limitati gli elementi che verranno visualizzati"
+
+#: ../../../plumi.content/plumi/content/portlets/current_video_categories.py:19
+msgid "If none provided defaults to 'Video categories'"
+msgstr "Se non viene specificato verrá usato 'Categorie video'"
+
+#: ../../../plumi.content/plumi/content/portlets/video_from_same_categories.py:20
+msgid "If none provided defaults to 'Video from same categories'"
+msgstr "Se non viene specificato verrá usato 'Video dalle stesse categorie'"
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+msgid ""
+"If you submitted the item by mistake or want to perform additional edits, "
+"this will take it back."
+msgstr ""
+"Se hai inviato il contenuto per errore o vuoi apportare ulteriori modifiche, "
+"questo farà retrocedere il contenuto."
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:52
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:33
@@ -776,204 +941,296 @@ msgstr "Immagine"
 msgid "Image caption"
 msgstr "Descrizione dell'immagine"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:55
-#: ../../../plumi.app/plumi/app/vocabs.py:109
+#: plumi.app/plumi/app/vocabs.py:108
 msgid "India "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:64
-msgid "Indigenous"
-msgstr "Indigeni"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:18
-#: ../../../plumi.app/plumi/app/vocabs.py:110
+#: plumi.app/plumi/app/vocabs.py:109
 msgid "Indonesia "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:79
-#: ../../../plumi.app/plumi/app/vocabs.py:255
+#: ../../../plumi.content/plumi/content/vocabs.py:76
+#: plumi.app/plumi/app/vocabs.py:314
+msgid "Indonesian"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:75
+#: plumi.app/plumi/app/vocabs.py:313
+msgid "Interlingua "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:77
+#: plumi.app/plumi/app/vocabs.py:315
+msgid "Interlingue "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:254
 msgid "Internet"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:111
+#: ../../../plumi.content/plumi/content/vocabs.py:81
+#: plumi.app/plumi/app/vocabs.py:319
+msgid "Inuktitut "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:78
+#: plumi.app/plumi/app/vocabs.py:316
+msgid "Inupiak "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:283
+msgid "Invalid E-mail address"
+msgstr "Email non valida"
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:285
+msgid "Invalid Website URI"
+msgstr "Indirizzo web non valido"
+
+#: plumi.app/plumi/app/vocabs.py:110
 msgid "Iran (Islamic Republic Of)"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:112
+#: plumi.app/plumi/app/vocabs.py:111
 msgid "Iraq"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:113
+#: plumi.app/plumi/app/vocabs.py:112
 msgid "Ireland "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:114
+#: ../../../plumi.content/plumi/content/vocabs.py:64
+#: plumi.app/plumi/app/vocabs.py:302
+msgid "Irish "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:113
 msgid "Israel"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "It will set processing status to the object."
 msgstr "Questo imposterà lo stato di esecuzione del oggetto."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:115
+#: ../../../plumi.content/plumi/content/vocabs.py:80
+#: plumi.app/plumi/app/vocabs.py:318
+msgid "Italian "
+msgstr "Italiano"
+
+#: plumi.app/plumi/app/vocabs.py:114
 msgid "Italy "
 msgstr "Italia"
 
-#: ../../../plumi.content/plumi/content/adapters.py:116
+#: ../../../plumi.content/plumi/content/adapters.py:125
 msgid "Item has been rejected.."
 msgstr "Il contenuto è stato respinto.."
 
-#: ../../../plumi.content/plumi/content/adapters.py:152
+#: ../../../plumi.content/plumi/content/adapters.py:162
 msgid "Item has been retracted.."
 msgstr "Il contenuto è stato revocato.."
 
-#: ../../../plumi.content/plumi/content/adapters.py:78
+#: ../../../plumi.content/plumi/content/adapters.py:85
+#: ../../../plumi.content/plumi/content/subscribers.py:336
 msgid "Item has been submitted for your review"
 msgstr "Il contenuto è stato inviato per la revisione"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:116
+#: plumi.app/plumi/app/vocabs.py:115
 msgid "Jamaica "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:48
-#: ../../../plumi.app/plumi/app/vocabs.py:117
+#: plumi.app/plumi/app/vocabs.py:116
 msgid "Japan "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:118
+#: ../../../plumi.content/plumi/content/vocabs.py:82
+#: plumi.app/plumi/app/vocabs.py:320
+msgid "Japanese "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:83
+#: plumi.app/plumi/app/vocabs.py:321
+msgid "Javanese "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:117
 msgid "Jordan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:119
+#: ../../../plumi.content/plumi/content/vocabs.py:88
+#: plumi.app/plumi/app/vocabs.py:326
+msgid "Kannada "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:90
+#: plumi.app/plumi/app/vocabs.py:328
+msgid "Kashmiri "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:85
+#: plumi.app/plumi/app/vocabs.py:323
+msgid "Kazakh "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:118
 msgid "Kazakhstan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:120
+#: plumi.app/plumi/app/vocabs.py:119
 msgid "Kenya "
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:240
-msgid "Keywords"
-msgstr "Parole chiave"
+#: ../../../plumi.content/plumi/content/vocabs.py:124
+#: plumi.app/plumi/app/vocabs.py:362
+msgid "Kinyarwanda "
+msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:30
-#: ../../../plumi.app/plumi/app/vocabs.py:121
+#: ../../../plumi.content/plumi/content/vocabs.py:92
+#: plumi.app/plumi/app/vocabs.py:330
+msgid "Kirghiz "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:120
 msgid "Kiribati"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:49
-#: ../../../plumi.app/plumi/app/vocabs.py:122
+#: ../../../plumi.content/plumi/content/vocabs.py:121
+#: plumi.app/plumi/app/vocabs.py:359
+msgid "Kirundi "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:121
 msgid "Korea, Democratic People's Republic Of"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:50
-#: ../../../plumi.app/plumi/app/vocabs.py:123
+#: plumi.app/plumi/app/vocabs.py:122
 msgid "Korea, Republic Of"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:124
+#: ../../../plumi.content/plumi/content/vocabs.py:89
+#: plumi.app/plumi/app/vocabs.py:327
+msgid "Korean "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:91
+#: plumi.app/plumi/app/vocabs.py:329
+msgid "Kurdish "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:123
 msgid "Kuwait"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:125
+#: plumi.app/plumi/app/vocabs.py:124
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:19
-#: ../../../plumi.app/plumi/app/vocabs.py:126
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:182
+msgid "Language"
+msgstr "Lingua"
+
+#: plumi.app/plumi/app/vocabs.py:125
 msgid "Lao People's Democratic Republic"
 msgstr ""
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:339
-msgid "Latest Callouts"
-msgstr "Ultimi annunci"
+#: ../../../plumi.content/plumi/content/vocabs.py:95
+#: plumi.app/plumi/app/vocabs.py:333
+msgid "Laothian "
+msgstr ""
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:392
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:384
 msgid "Latest Events"
 msgstr "Ultimi eventi"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:365
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:355
 msgid "Latest News"
 msgstr "Ultime notizie"
 
-#: ../../../plumi.app/plumi/app/install.py:103
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:221
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:316
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:198
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:327
+#: plumi.app/plumi/app/install.py:82
 msgid "Latest Videos"
 msgstr "Ultimi video"
 
-#: ../../../plumi.app/plumi/app/install.py:116
-msgid "Latest callouts."
-msgstr "Ultimi annunci."
+#: ../../../plumi.content/plumi/content/vocabs.py:93
+#: plumi.app/plumi/app/vocabs.py:331
+msgid "Latin "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:110
-msgid "Latest news and events on the site."
-msgstr "Ultime notizie ed eventi del sito."
-
-#: ../../../plumi.app/plumi/app/install.py:122
-msgid "Latest news."
-msgstr "Ultime notizie."
-
-#: ../../../plumi.app/plumi/app/install.py:104
-msgid "Latest videos contributed by the users."
-msgstr "Ultimi video inviati dagli utenti."
-
-#: ../../../plumi.app/plumi/app/vocabs.py:127
+#: plumi.app/plumi/app/vocabs.py:126
 msgid "Latvia"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:69
-msgid "Law / Justice"
-msgstr "Legge / Giustizia"
+#: ../../../plumi.content/plumi/content/vocabs.py:97
+#: plumi.app/plumi/app/vocabs.py:335
+msgid "Latvian"
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:128
+#: plumi.app/plumi/app/vocabs.py:127
 msgid "Lebanon "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:129
+#: plumi.app/plumi/app/vocabs.py:128
 msgid "Lesotho "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:130
+#: plumi.app/plumi/app/vocabs.py:129
 msgid "Liberia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:131
+#: plumi.app/plumi/app/vocabs.py:130
 msgid "Libyan Arab Jamahiriya"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:132
+#: ../../../plumi.content/plumi/content/browser/forms.py:168
+msgid "License"
+msgstr "Licenza"
+
+#: plumi.app/plumi/app/vocabs.py:131
 msgid "Liechtenstein "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:94
+#: plumi.app/plumi/app/vocabs.py:332
+msgid "Lingala "
 msgstr ""
 
 #: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
 msgid "Listing of the top contributors of video content"
 msgstr "Classifica del maggiori contributori di contenuti video"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:133
+#: plumi.app/plumi/app/vocabs.py:132
 msgid "Lithuania "
 msgstr ""
 
+#: ../../../plumi.content/plumi/content/vocabs.py:96
+#: plumi.app/plumi/app/vocabs.py:334
+msgid "Lithuanian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:184
 #: ../../../plumi.content/plumi/content/browser/templates/plumi_callout_view.pt:84
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:41
-#: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:20
 msgid "Location"
 msgstr "Posizione"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:134
+#: plumi.app/plumi/app/vocabs.py:133
 msgid "Luxembourg"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:135
+#: plumi.app/plumi/app/vocabs.py:134
 msgid "Macau "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:136
+#: plumi.app/plumi/app/vocabs.py:135
 msgid "Macedonia, The Former Yugoslav Republic Of"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:137
+#: ../../../plumi.content/plumi/content/vocabs.py:100
+#: plumi.app/plumi/app/vocabs.py:338
+msgid "Macedonian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:136
 msgid "Madagascar"
 msgstr ""
 
@@ -981,370 +1238,408 @@ msgstr ""
 msgid "Mail sent."
 msgstr "E-mail inviata."
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Make private"
 msgstr "Rendi privato"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
-msgid "Making an item private means that it will not be visible to anyone but the owner and the site administrator."
-msgstr "Rendere privato un contenuto significa che non sarà visibile da nessuno tranne dal proprietario e dall'amministratore del sito."
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+msgid ""
+"Making an item private means that it will not be visible to anyone but the "
+"owner and the site administrator."
+msgstr ""
+"Rendere privato un contenuto significa che non sarà visibile da nessuno "
+"tranne dal proprietario e dall'amministratore del sito."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:138
+#: ../../../plumi.content/plumi/content/vocabs.py:98
+#: plumi.app/plumi/app/vocabs.py:336
+msgid "Malagasy "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:137
 msgid "Malawi"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:20
-#: ../../../plumi.app/plumi/app/vocabs.py:139
+#: ../../../plumi.content/plumi/content/vocabs.py:105
+#: plumi.app/plumi/app/vocabs.py:343
+msgid "Malay "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:101
+#: plumi.app/plumi/app/vocabs.py:339
+msgid "Malayalam "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:138
 msgid "Malaysia"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:56
-#: ../../../plumi.app/plumi/app/vocabs.py:140
+#: plumi.app/plumi/app/vocabs.py:139
 msgid "Maldives"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:141
+#: plumi.app/plumi/app/vocabs.py:140
 msgid "Mali"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:142
+#: plumi.app/plumi/app/vocabs.py:141
 msgid "Malta "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:31
-#: ../../../plumi.app/plumi/app/vocabs.py:143
+#: ../../../plumi.content/plumi/content/vocabs.py:106
+#: plumi.app/plumi/app/vocabs.py:344
+msgid "Maltese "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:99
+#: plumi.app/plumi/app/vocabs.py:337
+msgid "Maori "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:104
+#: plumi.app/plumi/app/vocabs.py:342
+msgid "Marathi "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:142
 msgid "Marshall Islands"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:144
+#: plumi.app/plumi/app/vocabs.py:143
 msgid "Martinique"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:145
+#: plumi.app/plumi/app/vocabs.py:144
 msgid "Mauritania"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:146
+#: plumi.app/plumi/app/vocabs.py:145
 msgid "Mauritius "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:147
+#: ../../../plumi.content/plumi/content/portlets/video_from_same_categories.py:26
+msgid "Maximum number of shown items."
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:146
 msgid "Mayotte "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:80
-msgid "Media"
-msgstr ""
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:278
+msgid "Media Formats:"
+msgstr "Formati:"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:277
-msgid "Media Formats :"
-msgstr "Formati media :"
-
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Member makes content private"
 msgstr "Il Membro rende i contenuti privati"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Member promotes content to public draft"
 msgstr "Il Membro promuove i contenuti a bozza pubblica"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Member retracts submission"
 msgstr "Il Membro annulla l'invio"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Member submits content for publication"
 msgstr "Il Membro invia i contenuti per la pubblicazione"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:148
+#: plumi.app/plumi/app/vocabs.py:147
 msgid "Mexico"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:32
-#: ../../../plumi.app/plumi/app/vocabs.py:149
+#: plumi.app/plumi/app/vocabs.py:148
 msgid "Micronesia, Federated States Of "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:150
+#: ../../../plumi.content/plumi/content/vocabs.py:103
+#: plumi.app/plumi/app/vocabs.py:341
+msgid "Moldavian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:149
 msgid "Moldova, Republic Of"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:151
+#: plumi.app/plumi/app/vocabs.py:150
 msgid "Monaco"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:51
-#: ../../../plumi.app/plumi/app/vocabs.py:152
+#: plumi.app/plumi/app/vocabs.py:151
 msgid "Mongolia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:153
+#: ../../../plumi.content/plumi/content/vocabs.py:102
+#: plumi.app/plumi/app/vocabs.py:340
+msgid "Mongolian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:152
 msgid "Montserrat"
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:232
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:207
 msgid "More Videos&hellip;"
 msgstr "Altri video&hellip;"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:154
+#: plumi.app/plumi/app/vocabs.py:153
 msgid "Morocco "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:155
+#: plumi.app/plumi/app/vocabs.py:154
 msgid "Mozambique"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:100
-msgid "Music"
-msgstr "Musica"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:16
-#: ../../../plumi.app/plumi/app/vocabs.py:156
+#: plumi.app/plumi/app/vocabs.py:155
 msgid "Myanmar "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:157
+#: plumi.app/plumi/app/vocabs.py:156
 msgid "Namibia "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:34
-#: ../../../plumi.app/plumi/app/vocabs.py:158
+#: ../../../plumi.content/plumi/content/vocabs.py:108
+#: plumi.app/plumi/app/vocabs.py:157
 msgid "Nauru "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:57
-#: ../../../plumi.app/plumi/app/vocabs.py:159
+#: plumi.app/plumi/app/vocabs.py:158
 msgid "Nepal "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:160
+#: ../../../plumi.content/plumi/content/vocabs.py:109
+#: plumi.app/plumi/app/vocabs.py:347
+msgid "Nepali "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:159
 msgid "Netherlands "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:161
+#: plumi.app/plumi/app/vocabs.py:160
 msgid "Netherlands Antilles"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:35
-#: ../../../plumi.app/plumi/app/vocabs.py:162
+#: plumi.app/plumi/app/vocabs.py:161
 msgid "New Caledonia "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:33
-#: ../../../plumi.app/plumi/app/vocabs.py:163
+#: plumi.app/plumi/app/vocabs.py:162
 msgid "New Zealand "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:121
-msgid "News"
-msgstr "Notizie"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:101
-msgid "News Report"
-msgstr "Rapporto sulle notizie"
-
-#: ../../../plumi.app/plumi/app/install.py:109
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:70
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:64
 msgid "News and Events"
 msgstr "Notizie ed eventi"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:164
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:57
+msgid "News and Events RSS Syndication"
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:163
 msgid "Nicaragua "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:165
+#: plumi.app/plumi/app/vocabs.py:164
 msgid "Niger "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:166
+#: plumi.app/plumi/app/vocabs.py:165
 msgid "Nigeria "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:167
+#: plumi.app/plumi/app/vocabs.py:166
 msgid "Niue"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:168
+#: ../../../plumi.content/plumi/content/browser/forms.py:291
+msgid "No file was uploaded"
+msgstr "Nessun file caricato"
+
+#: plumi.app/plumi/app/vocabs.py:167
 msgid "Norfolk Island"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:36
-#: ../../../plumi.app/plumi/app/vocabs.py:169
+#: plumi.app/plumi/app/vocabs.py:168
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:170
+#: plumi.app/plumi/app/vocabs.py:169
 msgid "Norway"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:87
-msgid "Nuclear"
-msgstr "Nucleare"
+#: ../../../plumi.content/plumi/content/vocabs.py:111
+#: plumi.app/plumi/app/vocabs.py:349
+msgid "Norwegian "
+msgstr ""
 
 #: ../../../plumi.content/plumi/content/browser/portlets/activemembers.py:26
 msgid "Number of items to display"
 msgstr "Numero di contenuti da mostrare"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:171
+#: ../../../plumi.content/plumi/content/vocabs.py:112
+#: plumi.app/plumi/app/vocabs.py:350
+msgid "Occitan "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:170
 msgid "Oman"
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:223
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:252
 msgid "One per line"
 msgstr "Uno per linea"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:115
-#: ../../../plumi.app/plumi/app/vocabs.py:267
-#: ../../../plumi.content/plumi/content/vocabs.py:23
+#: ../../../plumi.content/plumi/content/vocabs.py:114
+#: plumi.app/plumi/app/vocabs.py:352
+msgid "Oriya "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:25
+#: plumi.app/plumi/app/vocabs.py:264
 msgid "Other"
 msgstr "Altro"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/change_ownership.cpy:24
-msgid "Ownership has been changed."
-msgstr "La proprietà del contenuto è stata modificata"
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:316
+msgid "Other videos by this member"
+msgstr "Altri video da questo utente"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:58
-#: ../../../plumi.app/plumi/app/vocabs.py:172
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:328
+msgid "Other videos from same categories"
+msgstr "Altri video dalle stesse categorie"
+
+#: plumi.app/plumi/app/vocabs.py:171
 msgid "Pakistan"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:37
-#: ../../../plumi.app/plumi/app/vocabs.py:173
+#: plumi.app/plumi/app/vocabs.py:172
 msgid "Palau "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:174
+#: plumi.app/plumi/app/vocabs.py:173
 msgid "Palestinian Territory, Occupied "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:175
+#: plumi.app/plumi/app/vocabs.py:174
 msgid "Panama"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:38
-#: ../../../plumi.app/plumi/app/vocabs.py:176
+#: plumi.app/plumi/app/vocabs.py:175
 msgid "Papua New Guinea"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:177
+#: plumi.app/plumi/app/vocabs.py:176
 msgid "Paraguay"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:202
-msgid "Past callouts."
-msgstr "Annunci passati."
+#: ../../../plumi.content/plumi/content/vocabs.py:117
+#: plumi.app/plumi/app/vocabs.py:355
+msgid "Pashto"
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:289
-msgid "Past events."
-msgstr "Eventi passati."
-
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Pending review"
 msgstr "In attesa di revisione"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:178
+#: ../../../plumi.content/plumi/content/vocabs.py:58
+#: plumi.app/plumi/app/vocabs.py:296
+msgid "Persian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:177
 msgid "Peru"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:21
-#: ../../../plumi.app/plumi/app/vocabs.py:179
+#: plumi.app/plumi/app/vocabs.py:178
 msgid "Philippines "
 msgstr ""
 
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:232
-msgid "Phone :"
-msgstr "Telefono :"
+msgid "Phone:"
+msgstr ""
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:380
-msgid "Phone Number"
-msgstr "Numero di telefono"
-
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:339
-msgid "Physical Address"
-msgstr "Indirizzo"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:39
-#: ../../../plumi.app/plumi/app/vocabs.py:180
+#: plumi.app/plumi/app/vocabs.py:179
 msgid "Pitcairn"
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/adapters.py:79
+#: ../../../plumi.content/plumi/content/adapters.py:86
+#: ../../../plumi.content/plumi/content/subscribers.py:337
 msgid "Please review the submitted content. "
 msgstr "Revisiona il contenuto inviato. "
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
 msgid "Plumi Image Workflow"
 msgstr "Workflow di Plumi per le immagini"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Plumi Workflow"
 msgstr "Workflow di Plumi"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:181
+#: plumi.app/plumi/app/vocabs.py:180
 msgid "Poland"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:82
-msgid "Politics"
-msgstr "Politica"
+#: ../../../plumi.content/plumi/content/vocabs.py:116
+#: plumi.app/plumi/app/vocabs.py:354
+msgid "Polish "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:182
+#: ../../../plumi.content/plumi/content/portlets/current_video_categories.py:18
+#: ../../../plumi.content/plumi/content/portlets/video_from_same_categories.py:19
+msgid "Portlet title"
+msgstr "Titolo portlet"
+
+#: plumi.app/plumi/app/vocabs.py:181
 msgid "Portugal"
 msgstr ""
 
+#: ../../../plumi.content/plumi/content/vocabs.py:118
+#: plumi.app/plumi/app/vocabs.py:356
+msgid "Portuguese "
+msgstr ""
+
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:242
-msgid "Post Code :"
-msgstr "Codice postale :"
+msgid "Post Code:"
+msgstr "CAP:"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:360
-msgid "Postcode"
-msgstr "Codice postale"
-
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:86
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:77
 msgid "Posted: ${PostedDate}"
 msgstr "Inviato: ${PostedDate}"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:63
-msgid "Poverty / Development"
-msgstr "Povertà / Sviluppo"
-
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Previous transition"
 msgstr "Transizione precedente"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:150
+msgid "Primary Language of the video"
+msgstr "Lingua principale del video"
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Private"
 msgstr "Privato"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Process"
 msgstr "Processa"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Processing"
 msgstr "Sto processando"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:317
-msgid "Produced"
-msgstr "Prodotto"
-
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:281
-msgid "Produced by"
-msgstr "Prodotto da"
-
+#: ../../../plumi.content/plumi/content/browser/forms.py:205
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:194
 #: ../../../plumi.content/plumi/content/content/plumivideo.py:34
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:74
 msgid "Producer"
 msgstr "Produttore"
 
@@ -1358,13 +1653,13 @@ msgstr "Indirizzo email del produttore"
 msgid "Producer Mailing Address"
 msgstr "Indirizzo postale del produttore"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:108
-#: ../../../plumi.app/plumi/app/vocabs.py:266
-#: ../../../plumi.content/plumi/content/vocabs.py:22
+#: ../../../plumi.content/plumi/content/vocabs.py:24
+#: plumi.app/plumi/app/vocabs.py:263
 msgid "Production"
 msgstr "Produzione"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:324
+#: ../../../plumi.content/plumi/content/browser/forms.py:218
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:237
 msgid "Production Company"
 msgstr "Azienda di produzione"
 
@@ -1373,18 +1668,19 @@ msgstr "Azienda di produzione"
 msgid "Production Company Name"
 msgstr "Nome del azienda di produzione"
 
+#: ../../../plumi.content/plumi/content/browser/forms.py:214
 #: ../../../plumi.content/plumi/content/content/plumivideo.py:76
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:50
 msgid "Project Name"
 msgstr "Nome del progetto"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Promote to Draft"
 msgstr "Promuovi a Bozza"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Promotes your private item to a public draft."
 msgstr "Promuovi il tuo contenuto privato a bozza pubblica."
 
@@ -1393,285 +1689,453 @@ msgstr "Promuovi il tuo contenuto privato a bozza pubblica."
 msgid "Provide a date for when this callout will be closed."
 msgstr "Inserire la data di scadenza dell'annuncio."
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Provides access to workflow history"
 msgstr "Fornire l'accesso alla storia del workflow"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Public draft"
 msgstr "Bozza pubblica"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Publish"
 msgstr "Pubblica"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:47
-msgid "Publish Event"
-msgstr "Pubblica l'evento"
+#: ../../../plumi.skin/plumi/skin/browser/portlets/publishportlet.py:35
+msgid "Publish Portlet"
+msgstr "Portlet Pubblicazione"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:52
-msgid "Publish News"
-msgstr "Pubblica la notizia"
+#: ../../../plumi.content/plumi/content/browser/forms.py:236
+msgid "Publish your video"
+msgstr "Pubblica il tuo video"
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:38
-msgid "Publish Video"
-msgstr "Pubblica il video"
-
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Published"
 msgstr "Pubblicato"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Publishing the item makes it visible to other users."
 msgstr "La pubblicazione dei contenuti li rende visibili agli altri utenti."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:183
+#: plumi.app/plumi/app/vocabs.py:182
 msgid "Puerto Rico "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
-msgid "Puts your item in a review queue, so it can be published on the site."
-msgstr "Metti il contenuto nella coda di revisione, così che possa essere pubblicato sul sito."
+#: ../../../plumi.content/plumi/content/vocabs.py:115
+#: plumi.app/plumi/app/vocabs.py:353
+msgid "Punjabi "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:184
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+msgid "Puts your item in a review queue, so it can be published on the site."
+msgstr ""
+"Metti il contenuto nella coda di revisione, così che possa essere pubblicato "
+"sul sito."
+
+#: plumi.app/plumi/app/vocabs.py:183
 msgid "Qatar "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:76
-msgid "Race"
-msgstr "Razza"
+#: ../../../plumi.content/plumi/content/vocabs.py:119
+#: plumi.app/plumi/app/vocabs.py:357
+msgid "Quechua "
+msgstr ""
 
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:106
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:96
 msgid "Read more&hellip;"
 msgstr "Altro&hellip;"
 
-#: ../../../plumi.app/plumi/app/install.py:133
+#: plumi.app/plumi/app/install.py:88
 msgid "Recent Comments"
 msgstr "Commenti recenti"
 
-#: ../../../plumi.app/plumi/app/install.py:134
+#: plumi.app/plumi/app/install.py:89
 msgid "Recent comments."
 msgstr "Commenti recenti."
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:65
-msgid "Refugee / Migration"
-msgstr "Rifugiati / Migrazione"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:77
-msgid "Religion"
-msgstr "Religione"
-
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Retract"
 msgstr "Ritira"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:185
+#: plumi.app/plumi/app/vocabs.py:184
 msgid "Reunion "
 msgstr "Riunione"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Reviewer features content"
 msgstr "Il revisore promuove i contenuti"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Reviewer publishes content"
 msgstr "Il revisore pubblica i contenuti"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Reviewer sends content back for re-drafting"
 msgstr "Il revisore manda indietro i contenuti per ulteriori modifiche"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Reviewer tasks"
 msgstr "Compiti del revisore"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:186
+#: ../../../plumi.content/plumi/content/vocabs.py:120
+#: plumi.app/plumi/app/vocabs.py:358
+msgid "Rhaeto-Romance "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:185
 msgid "Romania "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:187
+#: ../../../plumi.content/plumi/content/vocabs.py:122
+#: plumi.app/plumi/app/vocabs.py:360
+msgid "Romanian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:123
+#: plumi.app/plumi/app/vocabs.py:361
+msgid "Russian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:186
 msgid "Russian Federation"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:188
+#: plumi.app/plumi/app/vocabs.py:187
 msgid "Rwanda"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:189
+#: plumi.app/plumi/app/vocabs.py:188
 msgid "Saint Kitts And Nevis "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:190
+#: plumi.app/plumi/app/vocabs.py:189
 msgid "Saint Lucia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:191
+#: plumi.app/plumi/app/vocabs.py:190
 msgid "Saint Vincent And The Grenadines"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:40
-#: ../../../plumi.app/plumi/app/vocabs.py:192
+#: plumi.app/plumi/app/vocabs.py:191
 msgid "Samoa "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:193
+#: ../../../plumi.content/plumi/content/vocabs.py:132
+#: plumi.app/plumi/app/vocabs.py:370
+msgid "Samoan "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:192
 msgid "San Marino"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:194
+#: ../../../plumi.content/plumi/content/vocabs.py:127
+#: plumi.app/plumi/app/vocabs.py:365
+msgid "Sangho "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:125
+#: plumi.app/plumi/app/vocabs.py:363
+msgid "Sanskrit "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:193
 msgid "Sao Tome And Principe "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:195
+#: plumi.app/plumi/app/vocabs.py:194
 msgid "Saudi Arabia"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:106
-msgid "Screening"
-msgstr "Proiezione"
+#: ../../../plumi.content/plumi/content/browser/forms.py:277
+msgid "Save changes"
+msgstr "Salva modifiche"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: ../../../plumi.content/plumi/content/vocabs.py:65
+#: plumi.app/plumi/app/vocabs.py:303
+msgid "Scots"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:191
+msgid "Select topics and click arrows to add or remove"
+msgstr ""
+"Seleziona gli argomenti e clicca sulle frecce per aggiungere o rimuovere"
+
+#: ../../../plumi.content/plumi/content/browser/interfaces.py:21
+msgid "Send Notifications"
+msgstr "Invia notifiche"
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Send back"
 msgstr "Manda indietro"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
-msgid "Sending the item back will return the item to the original author instead of publishing it. You should preferably include a reason for why it was not published."
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+msgid ""
+"Sending the item back will return the item to the original author instead of "
+"publishing it. You should preferably include a reason for why it was not "
+"published."
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:196
+#: plumi.app/plumi/app/vocabs.py:195
 msgid "Senegal "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:248
+#: ../../../plumi.content/plumi/content/browser/forms.py:197
+msgid "Seperate with comma. Eg tag1, tag2, tag4"
+msgstr "Separare con virgole. Es: tag1, tag2, tag3"
+
+#: plumi.app/plumi/app/vocabs.py:247
 msgid "Serbia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:197
+#: ../../../plumi.content/plumi/content/vocabs.py:136
+#: plumi.app/plumi/app/vocabs.py:374
+msgid "Serbian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:128
+#: plumi.app/plumi/app/vocabs.py:366
+msgid "Serbo-Croatian "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:138
+#: plumi.app/plumi/app/vocabs.py:376
+msgid "Sesotho "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:149
+#: plumi.app/plumi/app/vocabs.py:387
+msgid "Setswana "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:196
 msgid "Seychelles"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:198
+#: ../../../plumi.content/plumi/content/vocabs.py:133
+#: plumi.app/plumi/app/vocabs.py:371
+msgid "Shona "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:138
+msgid "Short summary"
+msgstr "Breve sommario"
+
+#: ../../../plumi.content/plumi/content/browser/interfaces.py:32
+msgid "Show related video from same author"
+msgstr "Mostra video dallo stesso autore"
+
+#: ../../../plumi.content/plumi/content/browser/interfaces.py:37
+msgid "Show related video from same categories"
+msgstr "Mostra video dalle stesse categorie"
+
+#: plumi.app/plumi/app/vocabs.py:197
 msgid "Sierra Leone"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:22
-#: ../../../plumi.app/plumi/app/vocabs.py:199
+#: ../../../plumi.content/plumi/content/vocabs.py:126
+#: plumi.app/plumi/app/vocabs.py:364
+msgid "Sindhi "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:198
 msgid "Singapore "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:200
+#: ../../../plumi.content/plumi/content/vocabs.py:129
+#: plumi.app/plumi/app/vocabs.py:367
+msgid "Sinhalese "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:137
+#: plumi.app/plumi/app/vocabs.py:375
+msgid "Siswati "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:130
+#: plumi.app/plumi/app/vocabs.py:368
+msgid "Slovak "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:199
 msgid "Slovakia (Slovak Republic)"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:201
+#: plumi.app/plumi/app/vocabs.py:200
 msgid "Slovenia"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:41
-#: ../../../plumi.app/plumi/app/vocabs.py:202
+#: ../../../plumi.content/plumi/content/vocabs.py:131
+#: plumi.app/plumi/app/vocabs.py:369
+msgid "Slovenian "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:201
 msgid "Solomon Islands "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:203
+#: ../../../plumi.content/plumi/content/vocabs.py:134
+#: plumi.app/plumi/app/vocabs.py:372
+msgid "Somali "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:202
 msgid "Somalia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:204
+#: plumi.app/plumi/app/vocabs.py:203
 msgid "South Africa"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:205
+#: plumi.app/plumi/app/vocabs.py:204
 msgid "South Georgia And The South Sandwich Islands"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:206
+#: plumi.app/plumi/app/vocabs.py:205
 msgid "Spain "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:59
-#: ../../../plumi.app/plumi/app/vocabs.py:207
+#: ../../../plumi.content/plumi/content/vocabs.py:55
+#: plumi.app/plumi/app/vocabs.py:293
+msgid "Spanish "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:206
 msgid "Sri Lanka "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:208
+#: plumi.app/plumi/app/vocabs.py:207
 msgid "St. Helena"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:209
+#: plumi.app/plumi/app/vocabs.py:208
 msgid "St. Pierre And Miquelon "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Submit for publication"
 msgstr "Invia per la pubblicazione"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:210
+#: plumi.app/plumi/app/vocabs.py:209
 msgid "Sudan "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:211
+#: ../../../plumi.content/plumi/content/vocabs.py:139
+#: plumi.app/plumi/app/vocabs.py:377
+msgid "Sundanese "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:210
 msgid "Suriname"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:88
-msgid "Sustainability"
-msgstr "Sostenibilità"
-
-#: ../../../plumi.app/plumi/app/vocabs.py:212
+#: plumi.app/plumi/app/vocabs.py:211
 msgid "Svalbard And Jan Mayen Islands"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:213
+#: ../../../plumi.content/plumi/content/vocabs.py:141
+#: plumi.app/plumi/app/vocabs.py:379
+msgid "Swahili "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:212
 msgid "Swaziland "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:214
+#: plumi.app/plumi/app/vocabs.py:213
 msgid "Sweden"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:215
+#: ../../../plumi.content/plumi/content/vocabs.py:140
+#: plumi.app/plumi/app/vocabs.py:378
+msgid "Swedish "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:214
 msgid "Switzerland "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:216
+#: plumi.app/plumi/app/vocabs.py:215
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:223
+#: ../../../plumi.content/plumi/content/vocabs.py:148
+#: plumi.app/plumi/app/vocabs.py:386
+msgid "Tagalog "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/forms.py:196
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:153
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:251
 msgid "Tags"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:52
-#: ../../../plumi.app/plumi/app/vocabs.py:217
+#: plumi.app/plumi/app/vocabs.py:216
 msgid "Taiwan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:218
+#: ../../../plumi.content/plumi/content/vocabs.py:144
+#: plumi.app/plumi/app/vocabs.py:382
+msgid "Tajik "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:217
 msgid "Tajikistan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:219
+#: ../../../plumi.content/plumi/content/vocabs.py:142
+#: plumi.app/plumi/app/vocabs.py:380
+msgid "Tamil "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:218
 msgid "Tanzania, United Republic Of"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:23
-#: ../../../plumi.app/plumi/app/vocabs.py:220
+#: ../../../plumi.content/plumi/content/vocabs.py:153
+#: plumi.app/plumi/app/vocabs.py:391
+msgid "Tatar "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:143
+#: plumi.app/plumi/app/vocabs.py:381
+msgid "Telugu "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/interfaces.py:26
+msgid "Text to show after video upload"
+msgstr "Testo da mostrare dopo l'upload del video"
+
+#: ../../../plumi.content/plumi/content/vocabs.py:145
+#: plumi.app/plumi/app/vocabs.py:383
+msgid "Thai "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:219
 msgid "Thailand"
 msgstr ""
+
+#: ../../../plumi.content/plumi/content/browser/interfaces.py:27
+msgid ""
+"Thank you very much for your contribution! We will review the video and "
+"notify you once it is ready."
+msgstr ""
+"Grazier per il tuo contributo! Revisioneremo il video e ti verrá notificato "
+"quando sará pronto."
 
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:70
 msgid "The Director of the video content"
@@ -1681,8 +2145,8 @@ msgstr "Il regista del contenuto video"
 msgid "The Distributor of the video content"
 msgstr "Il distributore del contenuto video"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "The ID of the user who performed the last transition"
 msgstr "L'ID dell'utente che ha effettuato l'ultima transizione"
 
@@ -1706,15 +2170,11 @@ msgstr "La nazione di origine associata al contenuto video"
 msgid "The caption for the thumbnail image."
 msgstr "La descrione per l'anteprima dell'immagine."
 
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:22
-msgid "The date the video content was released."
-msgstr "La data di rilascio del contenuto video."
-
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:28
 msgid "The description of the video content"
 msgstr "La desctizione del contenuto video"
 
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:100
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:106
 msgid "The genre of the video"
 msgstr "Il genere del video"
 
@@ -1738,24 +2198,8 @@ msgstr "La descrizione testuale dell'immagine."
 msgid "The thumbnail image for the video content"
 msgstr "L'immagine di anteprima per il contenuto video"
 
-#: ../../../plumi.content/plumi/content/browser/video.py:171
-msgid "The transcoding failed. %s"
-msgstr "Transcodifica fallita. %s"
-
-#: ../../../plumi.content/plumi/content/browser/video.py:165
-msgid "The transcoding has not started."
-msgstr "La transcodifica non è iniziata."
-
-#: ../../../plumi.content/plumi/content/browser/video.py:167
-msgid "The transcoding has worked successfully."
-msgstr "La transcodifica è stata completata correttamente."
-
-#: ../../../plumi.content/plumi/content/browser/video.py:169
-msgid "The transcoding is in progress."
-msgstr "La transcodifica è in corso."
-
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:179
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:106
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:195
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:112
 msgid "The uploaded video file"
 msgstr "Il file video caricato"
 
@@ -1763,135 +2207,192 @@ msgstr "Il file video caricato"
 msgid "The video categories - select as many as applicable."
 msgstr "Le categorie del video - selezionare tutte quelle applicabili."
 
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:100
+msgid "The video language."
+msgstr "La lingua del video."
+
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:40
 msgid "The website URL for the video content"
 msgstr "L'URL del sito internet del contenuto video"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:209
+#: ../../../plumi.content/plumi/content/browser/forms.py:146
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:22
+msgid "The year the video content was released."
+msgstr "L'anno in cui il video é stato rilasciato."
+
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:237
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:14
 msgid "Thumbnail Image description"
 msgstr "Descrizione dell'anteprima dell'immagine"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:11
-msgid "Tibet"
+#: ../../../plumi.content/plumi/content/vocabs.py:43
+#: plumi.app/plumi/app/vocabs.py:281
+msgid "Tibetan "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:42
-#: ../../../plumi.app/plumi/app/vocabs.py:221
+#: ../../../plumi.content/plumi/content/vocabs.py:146
+#: plumi.app/plumi/app/vocabs.py:384
+msgid "Tigrinya "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:220
 msgid "Timor-Leste"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:222
+#: ../../../plumi.content/plumi/content/browser/forms.py:133
+msgid "Title"
+msgstr "Titolo"
+
+#: plumi.app/plumi/app/vocabs.py:221
 msgid "Togo"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:43
-#: ../../../plumi.app/plumi/app/vocabs.py:223
+#: plumi.app/plumi/app/vocabs.py:222
 msgid "Tokelau "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:44
-#: ../../../plumi.app/plumi/app/vocabs.py:224
+#: ../../../plumi.content/plumi/content/vocabs.py:150
+#: plumi.app/plumi/app/vocabs.py:223
 msgid "Tonga "
 msgstr ""
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:160
+#: ../../../plumi.content/plumi/content/browser/forms.py:189
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:137
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:176
 msgid "Topics"
-msgstr ""
+msgstr "Argomenti"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:225
+#: plumi.app/plumi/app/vocabs.py:224
 msgid "Trinidad And Tobago "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:226
+#: ../../../plumi.content/plumi/content/vocabs.py:152
+#: plumi.app/plumi/app/vocabs.py:390
+msgid "Tsonga "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:225
 msgid "Tunisia "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:227
+#: plumi.app/plumi/app/vocabs.py:226
 msgid "Turkey"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:228
+#: ../../../plumi.content/plumi/content/vocabs.py:151
+#: plumi.app/plumi/app/vocabs.py:389
+msgid "Turkish "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:147
+#: plumi.app/plumi/app/vocabs.py:385
+msgid "Turkmen "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:227
 msgid "Turkmenistan"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:229
+#: plumi.app/plumi/app/vocabs.py:228
 msgid "Turks And Caicos Islands"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:45
-#: ../../../plumi.app/plumi/app/vocabs.py:230
+#: plumi.app/plumi/app/vocabs.py:229
 msgid "Tuvalu"
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:154
+#: plumi.app/plumi/app/vocabs.py:392
+msgid "Twi "
 msgstr ""
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:42
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:22
-msgid "Typically a callout has an associated location in a common format (i.e. City, State)"
-msgstr "Tipicamente un annuncio ha una posizione associata in un formato comune (es. Città, Stato)"
+msgid ""
+"Typically a callout has an associated location in a common format (i.e. "
+"City, State)"
+msgstr ""
+"Tipicamente un annuncio ha una posizione associata in un formato comune (es. "
+"Città, Stato)"
 
-#: ../../../plumi.app/plumi/app/vocabs.py:231
+#: plumi.app/plumi/app/vocabs.py:230
 msgid "Uganda"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:232
+#: ../../../plumi.content/plumi/content/vocabs.py:155
+#: plumi.app/plumi/app/vocabs.py:393
+msgid "Uighur "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:231
 msgid "Ukraine "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/vocabs.py:156
+#: plumi.app/plumi/app/vocabs.py:394
+msgid "Ukrainian "
 msgstr ""
 
 #: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/send_feedback_to_author.cpy:82
 msgid "Unable to send mail: ${exception}"
 msgstr "Impossibile inviare l'email: ${exception}"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Under process by the moderation team."
 msgstr "In corso di lavorazione dal gruppo di moderatori."
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Unfeature"
 msgstr "Rimuovi promozione"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Unfeaturing the item removes it from the front page."
 msgstr "Rimuovere la promozione di un contenuto lo rimuove dalla prima pagina."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:233
+#: plumi.app/plumi/app/vocabs.py:232
 msgid "United Arab Emirates"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:234
+#: plumi.app/plumi/app/vocabs.py:233
 msgid "United Kingdom"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:235
+#: plumi.app/plumi/app/vocabs.py:234
 msgid "United States "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:236
+#: plumi.app/plumi/app/vocabs.py:235
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/install.py:128
-msgid "Upcoming events."
+#: ../../../plumi.content/plumi/content/vocabs.py:157
+#: plumi.app/plumi/app/vocabs.py:395
+msgid "Urdu "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:237
+#: plumi.app/plumi/app/vocabs.py:236
 msgid "Uruguay "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:238
+#: ../../../plumi.content/plumi/content/vocabs.py:158
+#: plumi.app/plumi/app/vocabs.py:396
+msgid "Uzbek "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:237
 msgid "Uzbekistan"
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:46
-#: ../../../plumi.app/plumi/app/vocabs.py:239
+#: plumi.app/plumi/app/vocabs.py:238
 msgid "Vanuatu "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:240
+#: plumi.app/plumi/app/vocabs.py:239
 msgid "Vatican City State (Holy See) "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:241
+#: plumi.app/plumi/app/vocabs.py:240
 msgid "Venezuela "
 msgstr ""
 
@@ -1899,87 +2400,95 @@ msgstr ""
 msgid "Video Categories"
 msgstr "Categorie video"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:178
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:104
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:194
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:110
 msgid "Video File"
 msgstr "File video"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:148
-#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:98
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:164
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:104
 msgid "Video Genre"
 msgstr "Genere del video"
 
-#: ../../../em.taxonomies/em/taxonomies/setuphandlers.py:88
-msgid "Video Genres"
-msgstr "Generi video"
+#: ../../../plumi.content/plumi/content/browser/forms.py:150
+#: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:98
+msgid "Video Language"
+msgstr "Lingua del videoh"
 
-#: ../../../plumi.content/plumi/content/content/plumivideo.py:191
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:207
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:80
 msgid "Video Thumbnail"
 msgstr "Anteprima del video"
 
-#: ../../../em.taxonomies/em/taxonomies/setuphandlers.py:129
-msgid "Video Topics"
-msgstr "Argomenti del video"
+#: ../../../plumi.content/plumi/content/portlets/current_video_categories.py:32
+#: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
+msgid "Video categories"
+msgstr "Categorie del video"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:274
-msgid "Video information"
-msgstr "Informazioni del video"
+#: ../../../plumi.content/plumi/content/portlets/video_from_same_categories.py:42
+#: ../../../plumi.content/plumi/content/profiles/default/portlets.xml
+msgid "Video from same categories"
+msgstr "Video dalle stesse categorie"
 
-#: ../../../plumi.app/plumi/app/install.py:98
+#: plumi.app/plumi/app/install.py:77
 msgid "Videos featured by the editorial team."
 msgstr "Video promossi dal gruppo editoriale."
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:24
-#: ../../../plumi.app/plumi/app/vocabs.py:242
+#: plumi.app/plumi/app/vocabs.py:241
 msgid "Viet Nam"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:243
+#: ../../../plumi.content/plumi/content/vocabs.py:159
+#: plumi.app/plumi/app/vocabs.py:397
+msgid "Vietnamese "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:242
 msgid "Virgin Islands (British)"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:244
+#: plumi.app/plumi/app/vocabs.py:243
 msgid "Virgin Islands (U.S.) "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Visible on the front page."
 msgstr "Visibile in prima pagina."
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Visible to everyone, but not approved by the reviewers."
 msgstr "Visibile a tutti, ma non ancora approvato dai revisori."
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Visible to everyone, not editable by the owner."
 msgstr "Visibile a tutti, non modificabile dal proprietario"
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: ../../../plumi.content/plumi/content/vocabs.py:160
+#: plumi.app/plumi/app/vocabs.py:398
+msgid "Volapuk "
+msgstr ""
+
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "Waiting to be reviewed, not editable by the owner."
 msgstr "In attesa di essere revisionato, non modificabile dal proprietario."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:245
+#: plumi.app/plumi/app/vocabs.py:244
 msgid "Wallis And Futuna Islands "
 msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:72
-msgid "War / Peace"
-msgstr "Guerra / Pace"
-
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:90
-msgid "Water"
-msgstr "Acqua"
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:220
+msgid "Website"
+msgstr ""
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:30
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:14
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:280
 msgid "Website Address"
 msgstr "Indirizzo web"
 
+#: ../../../plumi.content/plumi/content/browser/forms.py:222
 #: ../../../plumi.content/plumi/content/content/plumivideo.py:95
 #: ../../../plumi.content/plumi/content/interfaces/plumivideo.py:38
 msgid "Website URL"
@@ -1990,87 +2499,106 @@ msgstr "URL del sito web"
 msgid "Website for more info about the callout"
 msgstr "Sito per maggiori informazioni sull'annuncio"
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:14
-msgid "West Papua"
+#: ../../../plumi.content/plumi/content/vocabs.py:48
+#: plumi.app/plumi/app/vocabs.py:286
+msgid "Welsh "
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:246
+#: plumi.app/plumi/app/vocabs.py:245
 msgid "Western Sahara"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
-#: ../../../plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_image_workflow/definition.xml
+#: plumi.app/plumi/app/profiles/default/workflows/plumi_workflow/definition.xml
 msgid "When the previous transition was performed"
 msgstr "Quando la transizione precedente è stata effettuata"
 
 #: ../../../plumi.content/plumi/content/content/plumicallout.py:53
 #: ../../../plumi.content/plumi/content/interfaces/plumicallout.py:35
-msgid "Will be shown in the call out listings, and the call out item itself. Image will be scaled to a sensible size."
-msgstr "Verrà mostrato nell'anteprima dell'annuncio, e nell'annuncio stesso. L'immagine verrà scalata ad una dimensione adeguata."
+msgid ""
+"Will be shown in the call out listings, and the call out item itself. Image "
+"will be scaled to a sensible size."
+msgstr ""
+"Verrà mostrato nell'anteprima dell'annuncio, e nell'annuncio stesso. "
+"L'immagine verrà scalata ad una dimensione adeguata."
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:70
-msgid "Work"
-msgstr "Lavoro"
+#: ../../../plumi.content/plumi/content/vocabs.py:161
+#: plumi.app/plumi/app/vocabs.py:399
+msgid "Wolof "
+msgstr ""
 
-#: ../../../em.taxonomies/em/taxonomies/vocabs.py:110
-msgid "Workshop"
-msgstr "Laboratorio"
+#: ../../../plumi.content/plumi/content/vocabs.py:162
+#: plumi.app/plumi/app/vocabs.py:400
+msgid "Xhosa "
+msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:247
+#: ../../../plumi.content/plumi/content/browser/forms.py:144
+msgid "Year Produced"
+msgstr "Anno di produzione"
+
+#: ../../../plumi.content/plumi/content/content/plumivideo.py:115
+msgid "Year of release"
+msgstr "Anno di rilascio"
+
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:230
+msgid "Year produced"
+msgstr "Anno di produzione"
+
+#: plumi.app/plumi/app/vocabs.py:246
 msgid "Yemen "
 msgstr ""
 
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:462
-msgid "Your Preferred Media Formats"
-msgstr "I tuoi formati media preferiti"
+#: ../../../plumi.content/plumi/content/vocabs.py:163
+#: plumi.app/plumi/app/vocabs.py:401
+msgid "Yiddish"
+msgstr ""
 
-#: ../../../plumi.content/plumi/content/adapters.py:180
+#: ../../../plumi.content/plumi/content/vocabs.py:164
+#: plumi.app/plumi/app/vocabs.py:402
+msgid "Yoruba "
+msgstr ""
+
+#: ../../../plumi.content/plumi/content/adapters.py:191
 msgid "Your contribution has been accepted for publishing on the site"
 msgstr "Il tuo contributo è stato accettato per la pubblicazione sul sito"
 
-#: ../../../plumi.content/plumi/content/adapters.py:215
+#: ../../../plumi.content/plumi/content/adapters.py:227
 msgid "Your contribution has been rejected .."
 msgstr "Il tuo contributo è stato respinto .."
 
-#: ../../../plumi.content/plumi/content/adapters.py:241
+#: ../../../plumi.content/plumi/content/adapters.py:254
 msgid "Your contribution has been retracted .."
 msgstr "Il tuo contributo è stato ritirato .."
 
-#: ../../../plumi.app/plumi/app/vocabs.py:249
+#: plumi.app/plumi/app/vocabs.py:248
 msgid "Zambia"
 msgstr ""
 
-#: ../../../plumi.app/plumi/app/vocabs.py:250
+#: ../../../plumi.content/plumi/content/vocabs.py:165
+#: plumi.app/plumi/app/vocabs.py:403
+msgid "Zhuang "
+msgstr ""
+
+#: plumi.app/plumi/app/vocabs.py:249
 msgid "Zimbabwe"
 msgstr ""
 
-#. Default: "Click here to view a higher resolution."
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:98
-msgid "click_high_res"
-msgstr "Clicca qui per vedere ad una risoluzione maggiore."
+#: ../../../plumi.content/plumi/content/vocabs.py:167
+#: plumi.app/plumi/app/vocabs.py:405
+msgid "Zulu "
+msgstr ""
 
-#. Default: "Copy the following to embed the movie into another web page:"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:108
-msgid "copy_embed_code"
-msgstr "Copia il seguente codice per incorporare il video in un'altra pagina web:"
+#. Default: "There are currently no results for this search."
+#: ../../../plumi.content/plumi/content/browser/templates/video_listing.pt:14
+msgid "description_no_items_in_topic"
+msgstr "Attualmente non ci sono risultati per questa ricerca."
 
-#. Default: "Note: If you do not remain logged in after leaving this page, it is because you need to ${enable_cookies} in your browser."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:72
-msgid "description_enable_cookies_for_login"
-msgstr "Nota: se non rimani loggato dopo aver lasciato questa pagina è perchè devi ${enable_cookies} nel tuo browser."
-
-#. Default: "You can take fuller advantage of the features of this site if you enable javascript in your browser."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:64
-msgid "description_javascript_advantage"
-msgstr "Potrai avere un esperienza di navigazione migliore su questo sito se abiliti il javascript nel tuo browser."
-
-#. Default: "Now that you have registered and logged in you'll notice that the site looks a little different. You can add videos, events, news, set up your members workspace or personalise your profile page. Take the time to have a look around the site and explore what you can do. Check out the <a href=\"${DYNAMIC_CONTENT}\">help and tutorials page</a> for more information."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:29
-msgid "description_logged_in_explain"
-msgstr "Ora che ti sei registrato e hai effettuato l'accesso, noterai che il sito appare leggermente diverso. Puoi aggiungere dei video, degli eventi, delle notizie, impostare la tua area di lavoro per i membri o personalizzare la tua pagina del profilo. Prenditi il tempo di dare un'occhiata in giro ed esplorare cosa puoi fare. Visita il <a href=\"${DYNAMIC_CONTENT}\">help e la pagina dei tutorial</a> per maggiori informazioni"
+#: ../../../plumi.content/plumi/content/browser/forms.py:185
+msgid "e.g. City or Region."
+msgstr "es. cittá o regione."
 
 #. Default: "Full Description"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:348
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:261
 msgid "full_description"
 msgstr "Descrizione completa"
 
@@ -2079,134 +2607,59 @@ msgstr "Descrizione completa"
 msgid "go_to_parent_url"
 msgstr "Vai su di un livello"
 
-#. Default: "The URL for your external home page, if you have one."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:282
-msgid "help_external_homepage"
-msgstr "L'URL per il tuo sito esterno, se ne hai uno."
-
-#. Default: "Enter URLs for your websites, blogs and social networks such as Facebook and Twitter"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:306
-msgid "help_homepages"
-msgstr "Inserisci gli URL dei tuoi siti, blog o social networks come Facebook e Twitter"
-
-#. Default: "You can select multiple items by holding down the control or command key."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:403
-msgid "help_multiple_items"
-msgstr "Puoi selezionare più elementi tenendo premuto il tasto CTRL/COMMAND."
-
-#. Default: "All callouts from this author…"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:351
-msgid "label_author_internal_callout_page"
-msgstr "Tutti gli annunci di questo autore…"
-
 #. Default: "All events from this author…"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:403
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:399
 msgid "label_author_internal_events_page"
 msgstr "Tutti gli eventi di questo autore…"
 
 #. Default: "All news from this author…"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:377
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:370
 msgid "label_author_internal_news_page"
 msgstr "Tutte le notizie di questo autore…"
 
 #. Default: "All videos from this author…"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:325
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:340
 msgid "label_author_internal_video_page"
 msgstr "Tutti i video di questo autore…"
 
-#. Default: "enable cookies"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:73
-msgid "label_enable_cookies"
-msgstr "abilitare i cookies"
-
-#. Default: "Social Networks and Blogs"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/personalize_form.cpt:304
-msgid "label_homepages"
-msgstr "Social networks e blogs"
-
 #. Default: "A comment with the title '${title}' has been posted here: ${link}"
-#: ../../../plumi.content/plumi/content/subscribers.py:41
+#: ../../../plumi.content/plumi/content/subscribers.py:57
 msgid "mail_notification_message"
 msgstr "Un commento con titolo '${title}' è stato aggiunto qui: ${link}"
 
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:309
-msgid "more info"
-msgstr "altro"
-
 #. Default: "This item does not have any body text, click the edit tab to change it."
 #: ../../../plumi.content/plumi/content/browser/templates/plumi_callout_view.pt:106
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:65
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:70
 msgid "no_body_text"
-msgstr "Questo elemento non ha un corpo del testo, clicca sul tab Modifica per cambiarlo."
-
-#. Default: "Looking for content for a DVD compilation, screening, film festival or crew for a production? Let people know about it by adding a call-out."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:58
-msgid "publish_callout_blurb"
-msgstr "Stai cercando dei contenuti per una raccolta di DVD, di proiezioni, di festival dei film o un gruppo per una nuova produzione? Fallo sapere alla gente aggiungendo un annuncio."
-
-#. Default: "List your events such as screenings, film festivals or workshops here."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:48
-msgid "publish_event_blurb"
-msgstr "Mostra qui i tuoi eventi quali proiezioni, festival dei film o laboratori."
-
-#. Default: "Tell us news about your past and future productions and promote your work."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:53
-msgid "publish_news_blurb"
-msgstr "Dacci notizie delle tue produzioni passate e future e promuovi il tuo lavoro."
-
-#. Default: "Share your productions by uploading video to ${site_name}. Videos will be automatically submitted for publishing approval."
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:41
-msgid "publish_video_blurb"
-msgstr "Condividi le tue produzioni caricando dei video su ${site_name}. I video saranno automaticamente inviati per l'approvazione di pubblicazione."
+msgstr ""
+"Questo elemento non ha un corpo del testo, clicca sul tab Modifica per "
+"cambiarlo."
 
 #. Default: "You may like to try to"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:379
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:295
 msgid "restart_transcoding"
 msgstr "Potrebbe interessarti provare a"
 
-#. Default: "Slow Connection? Try a lower resolution."
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:96
-msgid "slow_connection_low_res"
-msgstr "Connessione lenta? Prova una risoluzione più bassa."
-
-#. Default: "Social Networking and Blogs"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:208
-msgid "social_networking_blogs"
-msgstr ""
-
-#. Default: "View larger image"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_embed_view.pt:53
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:87
-msgid "thumbnail_click_to_enlarge"
-msgstr "Visualizza un immagine più grande"
+#. Default: "Location: ${author_city},"
+#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:194
+msgid "text_location"
+msgstr "Luogo: ${author_city},"
 
 #. Default: "RSS2 Syndication"
-#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:24
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:314
+#: ../../../plumi.content/plumi/content/browser/templates/featured.pt:21
 msgid "title"
 msgstr ""
 
 #. Default: "Transcode Status"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:376
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:286
 msgid "transcode_status"
 msgstr "Stato di transcodifica"
 
 #. Default: "Transcoding"
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:371
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:283
 msgid "transcoding"
 msgstr "Transcodifica in corso"
 
-#. Default: "View editorial policy"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/publish.pt:44
-msgid "view_editorial_policy"
-msgstr "Visualizza le politiche editoriali"
-
-#. Default: "Website:"
-#: ../../../plumi.skin/plumi/skin/skins/plumi_skin_custom_templates/author.cpt:196
-msgid "website"
-msgstr "Sito web:"
-
-#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:300
+#: ../../../plumi.content/plumi/content/browser/templates/plumi_video_view.pt:213
 msgid "write the producer"
 msgstr "scrivi al produttore"
-
